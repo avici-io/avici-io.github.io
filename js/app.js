@@ -1,0 +1,1 @@
+var initSliders;initSliders=function(){var e;e={centerMode:true,centerPadding:"60px",slidesToShow:1,lazyLoad:"ondemand"};return $(".featured-games-carousel").slick(e)};$(document).ready(function(){initSliders();return $(".sidebar").height($(document).height())});
